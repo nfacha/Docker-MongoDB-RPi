@@ -3,7 +3,7 @@ MAINTAINER nfacha
 
 # Install required packages
 RUN apt-get update && apt-get -y upgrade
-RUN apt-get install mongodb-server -y
+RUN apt-get install mongodb-org -y
     # rm -rf /var/lib/apt/lists/*
 
 # Volumes
